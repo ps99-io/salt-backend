@@ -2,12 +2,12 @@ const firebase = require('firebase/app');
 require('firebase/auth') ;
 
 const config = {
-    apiKey: "AIzaSyCPGLg-gRL5U2fdIvHUu7Kct8WOM9XP4dA",
-    authDomain: "user-auth-bda88.firebaseapp.com",
-    projectId: "user-auth-bda88",
-    storageBucket: "user-auth-bda88.appspot.com",
-    messagingSenderId: "504464780170",
-    appId: "1:504464780170:web:7ec3672551fd05f51f7673"
+    apiKey: process.env.apiKey,
+    authDomain: process.env.authDomain,
+    projectId: process.env.projectId,
+    storageBucket: process.env.storageBucket,
+    messagingSenderId: process.env.messagingSenderId,
+    appId: process.env.appId
 }
 
 const app = firebase.initializeApp(config);
