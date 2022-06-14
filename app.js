@@ -31,7 +31,7 @@ app.listen(PORT, ()=> { console.log(`Server started at port ${PORT}`)});
 
 // home route
 app.get('/', (req, res)=> {
-    res.send("Hi, I am Devtcha are you up for development fun!!");
+    res.send("Hi, I am Salt Backend are you up for development fun!!");
 });
 
 
