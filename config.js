@@ -1,4 +1,5 @@
 const firebase = require('firebase/app');
+require('dotenv').config()
 require('firebase/auth') ;
 
 const config = {
